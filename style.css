@@ -1,0 +1,190 @@
+.wrapper {
+  margin: auto;
+  font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+  position: relative;
+}
+.quote_form {
+  padding-bottom: 0px;
+  display: block;
+  justify-content: center;
+}
+.nav_style > li {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5rem;
+  float: none;
+  margin-top: 7px;
+}
+/* tab color */
+.nav_style > li > a {
+  background-color: #fff;
+  color:#d1cccc;
+}
+/* active tab color */
+.nav_style > li.active > a, .nav_style > li.active > a:hover, .nav_style > li.active > a:focus {
+  color: #fff;
+  background-color: #00a598;
+}
+/* hover tab color */
+.nav_style > li > a:hover {
+  background-color: #00a598;
+}
+/* icons widgets css */
+.nav_style > li .icon {
+  position: relative;
+  font-size: 20px;
+}
+.icon {
+  margin-right: 15px;
+}
+.input_select_style {
+  border:0.5px solid #aaa transparant;
+  border-radius:4px;
+  margin: 10px auto;
+  box-sizing:border-box;
+  transition:.3s;
+}
+.inputWithIcon i{
+  position:absolute;
+  object-position: center;
+  right:8%;
+  bottom: 20%;
+  padding:8px 8px;
+  color:#aaa;
+  transition:.3s;
+}
+.dropDown_style {
+  background-color: #fff;
+  color: #8a8b8e;
+}
+.name_dob_style {
+  color: #8a8b8e;
+  font-family: 'Cairo', sans-serif;
+  width: 85%;
+}
+.name {
+  width: 92%;
+}
+.dob {
+  font-size: 15px;
+  color: #aaa;
+  margin-left: 33px;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.date_of_birth {
+  text-transform: uppercase;
+  font-family: 'Cairo', sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.dob_style {
+  margin: auto;
+}
+.terms{
+  color: black;
+}
+.orange-btn {
+  background-color: #ea5a10;
+  color: #fff;
+  text-decoration: none;
+  width: 93%;
+  margin: auto;
+  font-weight: bold;
+}
+.orange-btn:hover {
+  color: #fff;
+  background-color: #994c00;
+}
+.confirm{
+  width: 92%;
+  margin: 8px auto;
+  text-align: justify;
+  color: #aaa;
+  line-height: 1;
+  font-size: 12px;
+}
+/**********
+Tooltip
+**********/
+.tooltip-inner {
+  content: " ";
+  position:relative;
+  background-color:#fa641c;
+  text-align:center;
+  border-radius:6px;
+  opacity: 0.9;
+  margin-left: -5px;
+  border-width: 2px;
+  border-style: solid;
+  transition: opacity 2s;
+  z-index: 1;
+  bottom: 125%;
+  font-size: 12px;
+  padding: 10px;
+  top: 50%;
+  line-height: 15px;
+}
+.tooltip.left .tooltip-arrow {
+  border-left: 5px solid #fa641c;
+  padding: 0;
+}
+/*  End Tooltip */
+
+@media only screen and (min-width : 768px){
+  .name_dob_style {
+    width: 96%;
+  }
+  .date_of_birth {
+    width: 92%;
+  }
+  .dob {
+    font-size: 16px;
+  }
+  .confirm {
+    width: 93%;
+  }
+}
+@media only screen  and (min-width : 1024px) {
+  .quote_form {
+    width: 420px;
+    height: auto;
+    border: 1px solid  #e8eaed;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    padding: 0px;
+  }
+  .nav_style > li {
+    font-size: 8px;
+    text-transform: uppercase;
+    text-decoration:none;
+    font-size: 1.3rem;
+    padding: 0px;
+    margin: 0px;
+  }
+  .name_dob_style {
+    width: 93%;
+  }
+  .date_of_birth {
+    width: 87.5%;
+  }
+  .confirm{
+    width: 93%;
+    margin: 10px auto;
+    text-align: justify;
+  }
+  .inputWithIcon i{
+    position:absolute;
+    object-position: right;
+    right:8%;
+    top:25%;
+    padding:8px 8px;
+    color:#aaa;
+    transition:.3s;
+    display: inline-block;
+  }
+  .orange-btn {
+    width: 100%;
+  }
+}
