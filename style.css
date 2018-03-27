@@ -19,7 +19,7 @@
 /* tab color */
 .nav_style > li > a {
   background-color: #fff;
-  color:#aaa;
+  color:#d1cccc;
 }
 /* active tab color */
 .nav_style > li.active > a, .nav_style > li.active > a:hover, .nav_style > li.active > a:focus {
@@ -56,10 +56,10 @@
 }
 .dropDown_style {
   background-color: #fff;
-  color: #aaa;
+  color: #8a8b8e;
 }
 .name_dob_style {
-  color: #aaa;
+  color: #8a8b8e;
   font-family: 'Cairo', sans-serif;
   width: 85%;
 }
@@ -148,7 +148,7 @@ Tooltip
   .quote_form {
     width: 420px;
     height: auto;
-    border: 1px solid  #aaa;
+    border: 1px solid  #FDFDFD;
     border-radius: 10px;
     background-color: #fcfcfc;
     padding: 0px;
