@@ -19,7 +19,7 @@
 /* tab color */
 .nav_style > li > a {
   background-color: #fff;
-  color:#d1cccc;
+  color:#aaa;
 }
 /* active tab color */
 .nav_style > li.active > a, .nav_style > li.active > a:hover, .nav_style > li.active > a:focus {
@@ -56,10 +56,10 @@
 }
 .dropDown_style {
   background-color: #fff;
-  color: #8a8b8e;
+  color: #aaa;
 }
 .name_dob_style {
-  color: #8a8b8e;
+  color: #aaa;
   font-family: 'Cairo', sans-serif;
   width: 85%;
 }
@@ -67,11 +67,12 @@
   width: 92%;
 }
 .dob {
-  font-size: 15px;
+  font-size: 12px;
   color: #aaa;
   margin-left: 33px;
   margin-bottom: 0;
   margin-top: 0;
+  opacity: .6;
 }
 .date_of_birth {
   text-transform: uppercase;
@@ -139,9 +140,6 @@ Tooltip
   .date_of_birth {
     width: 92%;
   }
-  .dob {
-    font-size: 16px;
-  }
   .confirm {
     width: 93%;
   }
@@ -150,7 +148,7 @@ Tooltip
   .quote_form {
     width: 420px;
     height: auto;
-    border: 1px solid  #e8eaed;
+    border: 1px solid  #aaa;
     border-radius: 10px;
     background-color: #fcfcfc;
     padding: 0px;
